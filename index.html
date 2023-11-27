@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="yotbu's lil minecraft knowledge.">
+    <title>yotbu | Minecraft Things</title>
+</head>
+<body>
+    <div id="app">{{ message }}</div>
+
+    <script>
+    const { createApp, ref } = Vue
+
+    createApp({
+        setup() {
+        const message = ref('Halo Vue!')
+        return {
+            message
+        }
+        }
+    }).mount('#app')
+    </script>
+</body>
+</html>
