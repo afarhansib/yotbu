@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Item Sorter",
+        "desc": "cheap and reliable stackable item sorter",
+        "ml": [
+            [4, "Smooth Stone"],
+            [1, "Target Block"],
+            [1, "Redstone Torch"],
+            [1, "Comparator"],
+            [1, "Glass"],
+            [3, "Redstone Dust"]
+        ],
+        "images": [
+            ["item-sorter-1-1.png", "side"]
+        ]
+    }
+]
